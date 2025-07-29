@@ -13,8 +13,8 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Método no permitido' });
   }
 
-  const TOKEN = "AQUÍ_TU_TOKEN_CORRECTO"; // reemplázalo
-  const SMARTLOCK_ID = 1234567890; // reemplázalo
+  const TOKEN = "8e8a448d0753575b5cade3c5cf1087fa52f05628f08c7f629275e9dba1a8500af147ced4d8c8c696"; // reemplázalo
+  const SMARTLOCK_ID = 9634589714; // reemplázalo
 
   try {
     const response = await fetch(`https://api.nuki.io/smartlock/${SMARTLOCK_ID}/action`, {
