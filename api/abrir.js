@@ -13,7 +13,7 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Método no permitido' });
   }
 
-  const TOKEN = "8e8a448d0753575b5cade3c5cf1087fa52f05628f08c7f629275e9dba1a8500af147ced4d8c8c696"; // reemplázalo
+  const TOKEN = "3ee13511c9b2f05aa942fc000563f042f8ce151e7fbba1f64d274e7394ef85173ae0bccdeabc3de3"; // reemplázalo
   const SMARTLOCK_ID = 9634589714; // reemplázalo
 
   try {
